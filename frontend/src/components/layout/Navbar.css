@@ -1,0 +1,147 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  padding: 1.5rem 0;
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  color: #FFFFFF;
+  text-decoration: none;
+  z-index: 1001;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links.desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navbar-links.desktop {
+    display: flex;
+  }
+}
+
+.navbar-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #FAFF00;
+  transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after,
+.navbar-link.active::after {
+  width: 100%;
+}
+
+.navbar-link:hover {
+  color: #FAFF00;
+}
+
+.navbar-link.active {
+  color: #FAFF00;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  transition: color 0.3s ease;
+}
+
+.menu-toggle:hover {
+  color: #FAFF00;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.98);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+}
+
+.mobile-menu-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mobile-menu-link {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 1rem;
+  transition: color 0.3s ease;
+  letter-spacing: -0.02em;
+}
+
+.mobile-menu-link:hover,
+.mobile-menu-link.active {
+  color: #FAFF00;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu-link {
+    font-size: 2rem;
+  }
+}
