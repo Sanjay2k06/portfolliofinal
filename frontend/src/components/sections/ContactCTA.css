@@ -1,0 +1,65 @@
+.contact-cta-section {
+  padding: 8rem 2rem;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  color: #FFFFFF;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-cta-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 30% 50%, rgba(250, 255, 0, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.contact-cta-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-cta-content {
+  text-align: center;
+}
+
+.contact-cta-title {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.contact-cta-description {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-cta-btn {
+  background-color: #FAFF00;
+  color: #000000;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.contact-cta-btn:hover {
+  background-color: #FFFFFF;
+  transform: scale(1.05);
+}
