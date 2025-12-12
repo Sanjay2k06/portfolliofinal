@@ -1,0 +1,43 @@
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.splash-content {
+  text-align: center;
+}
+
+.splash-logo {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.splash-tagline {
+  font-size: 1.5rem;
+  color: #FAFF00;
+  margin: 1rem 0 0;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .splash-logo {
+    font-size: 3rem;
+  }
+
+  .splash-tagline {
+    font-size: 1rem;
+  }
+}
