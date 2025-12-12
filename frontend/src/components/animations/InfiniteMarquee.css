@@ -1,0 +1,23 @@
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.marquee-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 3rem;
+  will-change: transform;
+}
+
+.marquee-item {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: currentColor;
+  display: inline-block;
+}
