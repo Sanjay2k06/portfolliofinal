@@ -1,0 +1,148 @@
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #000000;
+  padding: 0 2rem;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0.3;
+}
+
+.hero-shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+}
+
+.hero-shape-1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(250, 255, 0, 0.3) 0%, transparent 70%);
+  top: 10%;
+  right: 10%;
+}
+
+.hero-shape-2 {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  bottom: 20%;
+  left: 5%;
+}
+
+.hero-shape-3 {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(250, 255, 0, 0.2) 0%, transparent 70%);
+  top: 50%;
+  left: 40%;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: clamp(4rem, 12vw, 12rem);
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 2rem;
+  color: #FFFFFF;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+}
+
+.hero-tagline {
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.01em;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  font-size: 1.1rem;
+  padding: 1.5rem 3rem;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.hero-btn.primary {
+  background-color: #FAFF00;
+  color: #000000;
+  border: none;
+}
+
+.hero-btn.primary:hover {
+  background-color: #FFFFFF;
+  transform: scale(1.05);
+}
+
+.hero-btn.secondary {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-btn.secondary:hover {
+  border-color: #FAFF00;
+  color: #FAFF00;
+  background-color: transparent;
+}
+
+.scroll-cue {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 0 1rem;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
