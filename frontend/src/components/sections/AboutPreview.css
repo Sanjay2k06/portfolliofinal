@@ -1,0 +1,49 @@
+.about-preview {
+  padding: 8rem 2rem;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.about-preview-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-preview-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-preview-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.about-preview-description {
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 3rem;
+}
+
+.about-preview-btn {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.about-preview-btn:hover {
+  background-color: #FAFF00;
+  color: #000000;
+  transform: scale(1.05);
+}
