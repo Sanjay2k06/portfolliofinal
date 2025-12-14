@@ -52,7 +52,7 @@ const SplashScreen = ({ onComplete }) => {
     <div ref={splashRef} className="splash-screen">
       <div className="splash-content">
         <h1 ref={logoRef} className="splash-logo">
-          tækni
+          Tækni
         </h1>
         <p ref={taglineRef} className="splash-tagline">
           Digital Studio

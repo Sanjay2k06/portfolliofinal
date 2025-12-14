@@ -52,7 +52,7 @@ const AnimatedLogo = ({ className = '' }) => {
 
   return (
     <div ref={logoRef} className={`animated-logo ${className}`}>
-      <span className="logo-text">tækni</span>
+      <span className="logo-text">Tækni</span>
     </div>
   );
 };

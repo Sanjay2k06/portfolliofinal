@@ -1,16 +1,16 @@
-// Mock data for tækni portfolio website
+// Mock data for Tækni portfolio website
 
-export const COMPANY_NAME = "tækni";
+export const COMPANY_NAME = "Tækni";
 
 export const heroData = {
-  title: "tækni",
+  title: "Tækni",
   tagline: "We craft digital experiences that feel like the future.",
   primaryCTA: "View Work",
   secondaryCTA: "Our Process"
 };
 
 export const aboutPreview = {
-  title: "About tækni",
+  title: "About Tækni",
   description: "We are a forward-thinking digital studio that combines strategic thinking with innovative design to create exceptional digital experiences. Our team of creative technologists pushes boundaries to deliver solutions that don't just meet expectations—they redefine them.",
   link: "/about"
 };
@@ -112,21 +112,21 @@ export const stats = [
 export const testimonials = [
   {
     id: 1,
-    quote: "tækni transformed our digital presence completely. Their strategic approach and attention to detail is unmatched.",
+    quote: "ækni transformed our digital presence completely. Their strategic approach and attention to detail is unmatched.",
     author: "Sarah Chen",
     position: "CEO, Nexus Platform",
     company: "Nexus"
   },
   {
     id: 2,
-    quote: "Working with tækni was a game-changer. They didn't just build a product—they crafted an experience.",
+    quote: "Working with Tækni was a game-changer. They didn't just build a product—they crafted an experience.",
     author: "Michael Rodriguez",
     position: "Founder, Quantum AI",
     company: "Quantum"
   },
   {
     id: 3,
-    quote: "The team at tækni brings a rare combination of creative vision and technical excellence. Highly recommended.",
+    quote: "The team at Tækni brings a rare combination of creative vision and technical excellence. Highly recommended.",
     author: "Emma Thompson",
     position: "Head of Design, Urban Canvas",
     company: "Urban Canvas"
@@ -138,14 +138,14 @@ export const teamMembers = [
     id: 1,
     name: "Sanjay",
     role: "Co-Founder & Creative Director",
-    bio: "With over a decade of experience in digital design, Sanjay leads creative vision and strategic direction at tækni.",
+    bio: "With over a decade of experience in digital design, Sanjay leads creative vision and strategic direction at Tækni.",
     image: "https://images.unsplash.com/photo-1742440710226-450e3b85c100?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHN0dWRpbyUyMHRlYW18ZW58MHx8fHwxNzY1NTE3MzIyfDA&ixlib=rb-4.1.0&q=85"
   },
   {
     id: 2,
     name: "Vijayanarayanan",
     role: "Co-Founder & Technical Director",
-    bio: "A technology visionary, Vijayanarayanan architects scalable solutions and drives technical innovation at tækni.",
+    bio: "A technology visionary, Vijayanarayanan architects scalable solutions and drives technical innovation at Tækni.",
     image: "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBvZmZpY2V8ZW58MHx8fHwxNzY1NTE3MzI4fDA&ixlib=rb-4.1.0&q=85"
   }
 ];
@@ -153,7 +153,7 @@ export const teamMembers = [
 export const aboutContent = {
   philosophy: {
     title: "Our Philosophy",
-    content: "At tækni, we believe that exceptional digital experiences are born at the intersection of strategic thinking, innovative design, and technical mastery. We don't just build websites and apps—we craft digital ecosystems that drive business growth and create lasting impact."
+    content: "At Tækni, we believe that exceptional digital experiences are born at the intersection of strategic thinking, innovative design, and technical mastery. We don't just build websites and apps—we craft digital ecosystems that drive business growth and create lasting impact."
   },
   process: {
     title: "Our Process",
@@ -210,11 +210,11 @@ export const aboutContent = {
 };
 
 export const contactInfo = {
-  email: "hello@taekni.studio",
-  phone: "+1 (555) 123-4567",
-  address: "San Francisco, CA",
-  social: {
-    twitter: "https://twitter.com/taekni",
+  email: "taekni.0505@gmail.com",
+  phone: "7200809026",
+  address: "Injambakkam,chennai",
+    social: {
+    twitter: "https://www.instagram.com/taekni.io/?igsh=eHZscmp0YWkxZ3Fi#",
     linkedin: "https://linkedin.com/company/taekni",
     dribbble: "https://dribbble.com/taekni",
     github: "https://github.com/taekni"
@@ -238,5 +238,5 @@ export const marqueeText = [
   "Development",
   "Strategy",
   "Motion",
-  "tækni"
+  "Tækni"
 ];
